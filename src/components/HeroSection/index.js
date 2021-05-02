@@ -42,6 +42,12 @@ const HeroSection = () => {
               onMouseLeave={onHover}
               primary="true"
               dark="true"
+              smooth={true}
+              duration={500}
+              spy={true}
+              exact='true'
+              offset={-20}
+              activeClass="active"
             >
               Inscreva-se {hover ? <ArrowForward /> : <ArrowRight />}
             </Button>
