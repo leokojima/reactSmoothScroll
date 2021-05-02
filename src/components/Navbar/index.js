@@ -50,7 +50,7 @@ const Navbar = ({ toggle }) => {
                 duration={500}
                 spy={true}
                 exact='true'
-                offset={-80}
+                offset={-40}
                 activeClass="active"
               >
                 Sobre
@@ -63,7 +63,7 @@ const Navbar = ({ toggle }) => {
                 duration={500}
                 spy={true}
                 exact='true'
-                offset={-80}
+                offset={-20}
                 activeClass="active"
               >
                 Conheça
@@ -76,7 +76,7 @@ const Navbar = ({ toggle }) => {
                 duration={500}
                 spy={true}
                 exact='true'
-                offset={-80}
+                offset={-20}
                 activeClass="active"
               >
                 Serviços
@@ -89,7 +89,7 @@ const Navbar = ({ toggle }) => {
                 duration={500}
                 spy={true}
                 exact='true'
-                offset={-80}
+                offset={-20}
                 activeClass="active"
               >
                 Cadastro
